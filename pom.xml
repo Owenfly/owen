@@ -3,8 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
+
     <modules>
         <module>owen-web</module>
+        <module>owen-common</module>
+        <module>owen-service-api</module>
+        <module>owen-service-api-impl</module>
+        <module>owen-support</module>
     </modules>
 
     <parent>
