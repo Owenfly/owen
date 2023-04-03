@@ -10,6 +10,7 @@
         <module>owen-service-api</module>
         <module>owen-service-api-impl</module>
         <module>owen-support</module>
+        <module>owen-handler</module>
     </modules>
 
     <parent>
