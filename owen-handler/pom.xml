@@ -11,5 +11,48 @@
 
     <artifactId>owen-handler</artifactId>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>com.zust.owen</groupId>
+            <artifactId>owen-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zust.owen</groupId>
+            <artifactId>owen-support</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.tencentcloudapi</groupId>
+            <artifactId>tencentcloud-sdk-java</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.squareup.okio</groupId>
+                    <artifactId>okio</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!--邮件发送-->
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+        </dependency>
+
+        <!--&lt;!&ndash;企业微信发送信息&ndash;&gt;-->
+        <!--<dependency>-->
+        <!--    <groupId>com.github.binarywang</groupId>-->
+        <!--    <artifactId>weixin-java-cp</artifactId>-->
+        <!--</dependency>-->
+
+        <!--&lt;!&ndash;支付宝SDK&ndash;&gt;-->
+        <!--<dependency>-->
+        <!--    <groupId>com.alipay.sdk</groupId>-->
+        <!--    <artifactId>alipay-sdk-java</artifactId>-->
+        <!--</dependency>-->
+    </dependencies>
+
 
 </project>
